@@ -9,6 +9,7 @@ brew "stow"
 brew "tmux"
 brew "zsh"
 brew "watch"
+brew "zplug"
 
 # tap
 # Homebrew に正式に登録されていないライブラリをインストール
