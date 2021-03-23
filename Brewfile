@@ -10,6 +10,7 @@ brew "tmux"
 brew "zsh"
 brew "watch"
 brew "zplug"
+brew "zsh-syntax-highlighting"
 
 # tap
 # Homebrew に正式に登録されていないライブラリをインストール
