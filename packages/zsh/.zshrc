@@ -1,8 +1,11 @@
 
+neofetch
 
 
 source ~/.zinit/bin/zinit.zsh
 
+# for autojump
+[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
@@ -86,6 +89,7 @@ plugins=(
   git
   zsh-autosuggestions
   zsh-syntax-highlighting
+  autojump
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -128,6 +132,9 @@ SAVEHIST=1000000
 setopt inc_append_history
 setopt share_history
 
+DIRSTACKSIZE=100
+setopt AUTO_PUSHD
+
 # peco for oh-my-zsh
 function peco-select-history() {
     local tac
@@ -169,3 +176,4 @@ source "$HOME/.zinit/bin/zinit.zsh"
 autoload -Uz _zinit
 (( ${+_comps} )) && _comps[zinit]=_zinit
 ### End of Zinit's installer chunk
+

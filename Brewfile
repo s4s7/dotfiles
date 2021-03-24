@@ -10,7 +10,11 @@ brew "tmux"
 brew "zsh"
 brew "watch"
 brew "zplug"
+
+brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
+brew "autojump"
+brew "neofetch"
 
 # tap
 # Homebrew に正式に登録されていないライブラリをインストール
