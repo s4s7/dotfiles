@@ -7,9 +7,10 @@ brew "nkf"
 brew "peco"
 brew "stow"
 brew "tmux"
-brew "zsh"
 brew "watch"
 brew "zplug"
+brew "yarn"
+
 
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
